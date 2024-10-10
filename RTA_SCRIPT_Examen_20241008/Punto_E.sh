@@ -19,3 +19,6 @@ sudo dmidecode -t chassis | head -7 | tail -2 >> $ARCHIVO
 
 echo "Se insertó la información del fabricante del chassis en el archivo Filtro_Basico.txt"
 echo
+
+# Imprimo la información del archivo
+cat $ARCHIVO
