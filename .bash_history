@@ -185,3 +185,195 @@ history
 cd ..
 cat $HOME/.bash_history
 history -a
+cp .bash_history repogit/UTNFRA_SO_1P2C_2024_Lubo/
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_Lubo/
+ls
+ll
+git status
+git add .bash_history
+git commit -m 'ADD: agrego history actual para Punta A y B'
+git push
+cd ..
+ls
+cd resolucion/
+ll
+mkdir puntoC
+cd punto
+cd puntoC
+ll
+vim puntoC.sh
+groupadd grupo_prueba
+sudo groupadd grupo_prueba
+if sudo groupadd grupo_prueba; do
+if [ sudo groupadd grupo_prueb ]; then echo 'grupo existe'; fi
+if sudo groupadd grupo_prueb; then echo 'grupo existe'; fi
+if (sudo groupadd grupo_prueb); then echo 'grupo existe'; fi
+if sudo groupadd grupo_prueba groupadd grupo_prueb; then echo 'grupo existe'; fi
+if sudo groupadd grupo_prueba; then echo 'grupo existe'; fi
+if sudo groupadd grupo_prueba; then echo 'grupo existe' fi fi
+sudo groupadd grupo_prueba; if [ $? -eq 9 ]; then echo 'EXISTE' fi ;
+clear
+sudo groupadd grupo_prueba; if [ $? -eq 9 ]; then echo 'EXISTE'; ;
+sudo groupadd grupo_prueba; if [ $? -eq 9 ]; then echo 'EXISTE' fi ;
+sudo groupadd grupo_prueba; if [ $? -eq 9 ]; then echo 'EXISTE' fi; ;
+sudo groupadd grupo_prueba; if [ $? -eq 9 ]; then echo 'EXISTE' ;
+sudo groupadd grupo_prueba if [ $? -eq 9 ]; then echo 'EXISTE'
+sudo groupadd grupo_prueba; if [ $? -eq 9 ]; then echo 'EXISTE' else; fi
+sudo groupadd grupo_prueba; if [ $? -eq 9 ]; then echo 'EXISTE'; fi
+ls
+tree resolucion
+cd resolucion/
+ls
+cd puntoC
+ls
+cat puntoC.sh
+vim puntoC.sh 
+vim puntoC.sh
+ls
+ll
+chmod 755 puntoC.sh 
+./puntoC.sh 
+history
+ll
+cd ..
+ll
+cd ..
+ll
+cd repogit/
+cd ..
+cd resolucion/
+ll
+cd puntoC/
+ll
+vim Listado_Punto_C.txt
+ll
+clear
+./puntoC.sh Listado_Punto_C.txt 
+vim ./puntoC.sh 
+./puntoC.sh Listado_Punto_C.txt
+vim ./puntoC.sh 
+./puntoC.sh Listado_Punto_C.txt
+vim ./puntoC.sh 
+exit
+ll
+cd resolucion/
+ll
+cd punto
+cd puntoC/
+ls
+vim puntoC.sh 
+cat /etc/shadow
+sudo cat /etc/shadow
+whoami
+sudo cat /etc/shadow | grep whoami
+sudo cat /etc/shadow | grep '(whoami)'
+sudo cat /etc/shadow | grep vagrant
+sudo cat /etc/shadow | grep whoami
+sudo cat /etc/shadow | grep (whoami)
+sudo cat /etc/shadow | grep whoami
+sudo whoami
+sudo cat /etc/shadow | grep $(whoami)
+sudo cat /etc/shadow | grep $(whoami) | awk -F ':' '{print $1}'
+sudo cat /etc/shadow | grep $(whoami) | awk -F ':' '{print $2}'
+vim puntoC.sh 
+./puntoC.sh
+vim puntoC.sh 
+./puntoC.sh
+vim puntoC.sh 
+./puntoC.sh
+vim puntoC.sh 
+./puntoC.sh
+vim puntoC.sh 
+./puntoC.sh
+vim puntoC.sh 
+man useradd
+vim puntoC.sh 
+man chown
+vim puntoC.sh 
+vim validar.txt
+ll
+rm validar.txt 
+ll
+vim puntoC.sh 
+clear
+vim Listado_Punto_C.txt 
+vim puntoC.sh 
+tree /Examenes-UTN/
+fsdisk
+fdisk -l
+sudo fdisk -l
+sudo tree /Examenes-UTN/
+../../repogit/UTN-FRA_SO_Examenes/202410/_checks/check_A.sh 
+../../repogit/UTN-FRA_SO_Examenes/202410/_checks/check_B.sh
+../../repogit/UTN-FRA_SO_Examenes/202410/_checks/check_C.sh
+ll
+./puntoC.sh 
+./puntoC.sh Listado_Punto_C.txt 
+id
+sudo id
+ll /
+ll /Examenes-UTN/
+tree /Examenes-UTN/
+sudo tree /Examenes-UTN/
+ll /Examenes-UTN/alumno_1
+sudo ll /Examenes-UTN/alumno_1
+sudo ls /Examenes-UTN/alumno_1
+sudo ls -l /Examenes-UTN/alumno_1
+vim puntoC.sh 
+clear
+./puntoC.sh 
+./puntoC.sh Listado_Punto_C.txt 
+cat /etc/passwd
+vim puntoC.sh 
+man useradd
+./puntoC.sh 
+./puntoC.sh Listado_Punto_C.txt 
+vim puntoC.sh 
+./puntoC.sh Listado_Punto_C.txt 
+ll /Examenes-UTN/
+ll /Examenes-UTN/alumno_1
+ls -l /Examenes-UTN/alumno_1
+sudo ls -l /Examenes-UTN/alumno_1
+id p1c2_2024_A1
+man useradd
+vim puntoC.sh 
+./puntoC.sh Listado_Punto_C.txt 
+deluser p1c2_2024_A1
+sudo deluser p1c2_2024_A1
+sudo deluser p1c2_2024_A2
+sudo deluser p1c2_2024_A3
+sudo deluser p1c2_2024_P1
+./puntoC.sh Listado_Punto_C.txt 
+../../repogit/UTN-FRA_SO_Examenes/202410/_checks/check_C.sh 
+sudo tree /Examenes-UTN/
+cat /Examenes-UTN/profesores/validar.txt 
+cat puntoC.sh >> ../../repogit/UTNFRA_SO_1P2C_2024_Lubo/RTA_SCRIPT_Examen_20241008/Punto_C.sh 
+cat ../../repogit/UTNFRA_SO_1P2C_2024_Lubo/RTA_SCRIPT_Examen_20241008/Punto_C.sh 
+clear
+cd ..
+cd repogit/
+cd UTNFRA_SO_1P2C_2024_Lubo/
+ls
+ll RTA_ARCHIVOS_Examen_20241008/
+sudo ll RTA_ARCHIVOS_Examen_20241008/
+sudo ls RTA_ARCHIVOS_Examen_20241008/
+sudo ls -l RTA_ARCHIVOS_Examen_20241008/
+cd RTA_ARCHIVOS_Examen_20241008/
+cp ../../../resolucion/puntoC/Listado_Punto_C.txt 
+cp ../../../resolucion/puntoC/Listado_Punto_C.txt ./ 
+ll
+chmod 775 Listado_Punto_C.txt 
+ll
+cd ..
+git status
+cd UTNFRA_SO_1P2C_2024_Lubo/
+git status
+git add RTA_SCRIPT_Examen_20241008/Punto_C.sh 
+git commit -m 'ADD: se agrega script de resolucion de Punto C'
+git status
+git add RTA_ARCHIVOS_Examen_20241008/Listado_Punto_C.txt 
+git status
+git commit -m 'ADD: se agrega listado auxiliar para script de Punto C'
+history -a
