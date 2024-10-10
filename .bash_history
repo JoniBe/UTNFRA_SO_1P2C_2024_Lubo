@@ -782,3 +782,25 @@ git add .
 git commit -m 'ADD: agregado resultado de ejecucion de Punto F'
 cd ..
 history -a
+cp .bash_history ./repogit/UTNFRA_SO_1P2C_2024_Lubo/
+cd repogit/
+cd UTNFRA_SO_1P2C_2024_Lubo/
+ll
+git status
+git add .
+git commit -m 'feat: actualizo archivo de history'
+git push
+ll
+vim README.md 
+ll
+git status
+git add .
+git commit -m 'feat: se actualizan datos personales'
+cd ..
+history -a
+cp .bash_history ./repogit/UTNFRA_SO_1P2C_2024_Lubo/
+cd repogit/
+ll
+cd UTNFRA_SO_1P2C_2024_Lubo/
+git status
+history -a
