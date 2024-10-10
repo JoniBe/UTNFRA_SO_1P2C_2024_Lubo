@@ -832,3 +832,17 @@ git commit -m 'feat: agrego salida del archivo generado en Punto E'
 git push
 cd ..
 ll
+cp $HOME/.bash_history ./
+git status
+git add .
+git commit -m 'feat: actualizo archivo de history'
+git push
+ll
+tree
+vim README.md 
+git status
+git add .
+git status
+git commit -m 'feat: actualizo datos personales'
+gitpush
+git push
