@@ -710,3 +710,75 @@ git commit -m 'ADD: se agrega el archivo de texto generado con el script del Pun
 git push
 cd ..
 history -a
+cp .bash_history ./repogit/UTNFRA_SO_1P2C_2024_Lubo
+cd repogit/
+ll
+cd UTNFRA_SO_1P2C_2024_Lubo/
+ll
+git status
+git add .
+git commit -m 'feat: se actualiza el archivo de history con lo realizado.'
+git push
+cd ..
+cd resolucion/
+ll
+mkdir puntoF
+cd puntoF/
+ll
+curl -s ifconfig.me
+echo $(curl -s ifconfig.me)
+vim puntoF.sh
+chmod 775 puntoF.sh 
+ll
+./puntoF.sh
+cat Filtro_Avanzado.txt 
+cat ../puntoC
+cat ../puntoC.sh
+cat ../puntoC/puntoC.sh 
+vim puntoF.sh 
+./puntoF.sh 
+cat Filtro_Avanzado.txt 
+echo "" >> Filtro_Avanzado.txt 
+cat Filtro_Avanzado.txt 
+echo "" > Filtro_Avanzado.txt 
+cat Filtro_Avanzado.txt 
+./puntoF.sh 
+vim ./puntoF.sh 
+./puntoF.sh 
+rm Filtro_Avanzado.txt 
+cd ..
+cd repogit/
+cd UTNFRA_SO_1P2C_2024_Lubo/
+git remote get-url origin
+echo $(ggit remote get-url origin)
+echo $(git remote get-url origin)
+cd ..
+cd resolucion/
+ll
+cd puntoF
+ll
+vim puntoF.sh 
+cat puntoF.sh > ../../repogit/UTNFRA_SO_1P2C_2024_Lubo/RTA_SCRIPT_Examen_20241008/Punto_F.sh
+cd ..
+cd repogit/
+cd UTNFRA_SO_1P2C_2024_Lubo/
+ll
+cd RTA_SCRIPT_Examen_20241008/
+ll
+chmod 755 Punto_F.sh 
+vim Punto_F.sh 
+ll
+./Punto_F.sh 
+vim Punto_F.sh 
+rm ../RTA_ARCHIVOS_Examen_20241008/Filtro_Avanzado.txt 
+./Punto_F.sh 
+cd ..
+git status
+git add RTA_SCRIPT_Examen_20241008/Punto_F.sh 
+git status
+git commit -m 'ADD: agregado script de resolución para Punto F'
+git status
+git add .
+git commit -m 'ADD: agregado resultado de ejecucion de Punto F'
+cd ..
+history -a
