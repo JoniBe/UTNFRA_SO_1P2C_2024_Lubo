@@ -804,3 +804,31 @@ ll
 cd UTNFRA_SO_1P2C_2024_Lubo/
 git status
 history -a
+cp $HOME/.bash_history ./
+git status
+git add .
+git commit -m 'feat: agrego nuevo history actualizado.'
+git push
+cd ..
+cd UTN-FRA_SO_Examenes/202410/_checks/
+ll
+./check_all.sh 
+exit
+ll
+cd repogit/
+ll
+cd UTNFRA_SO_1P2C_2024_Lubo/
+ll
+cd RTA_Sc
+cd RTA_SCRIPT_Examen_20241008/
+ll
+vim Punto_E.sh 
+./Punto_E.sh 
+rm ../RTA_ARCHIVOS_Examen_20241008/Filtro_Basico.txt 
+./Punto_E.sh 
+git status
+git add .
+git commit -m 'feat: agrego salida del archivo generado en Punto E'
+git push
+cd ..
+ll
