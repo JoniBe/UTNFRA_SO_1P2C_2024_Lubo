@@ -377,3 +377,243 @@ git add RTA_ARCHIVOS_Examen_20241008/Listado_Punto_C.txt
 git status
 git commit -m 'ADD: se agrega listado auxiliar para script de Punto C'
 history -a
+cp ../../.bash_history ./
+git status
+git add .bash_history 
+git status
+git commit -m 'feat: se actualiza historial de comandos con lo realizado para Punto C'
+git push
+ll
+cd resolucion/
+ll
+mkdir puntoD
+ll
+cd puntoD
+clear
+mkdir .-/Estructura_Asimetrica
+mkdir ./Estructura_Asimetrica
+ll
+rm Estructura_Asimetrica/
+rm Estructura_Asimetrica
+rm -R Estructura_Asimetrica
+ll
+mkdir ./Estructura_Asimetrica/{correo,cliente}
+mkdir -R ./Estructura_Asimetrica/{correo,cliente}
+mkdir -r ./Estructura_Asimetrica/{correo,cliente}
+man mkdir
+mkdir -p ./Estructura_Asimetrica/{correo,cliente}
+tree 
+rm -r Estructura_Asimetrica/
+tree
+mkdir -p ./Estructura_Asimetrica/{correo,cliente}/{cartas_{1..10}
+tree
+rm -R Estructura_Asimetrica/
+mkdir -p ./Estructura_Asimetrica/{correo,cliente}/cartas_{1..10}
+tree
+tree Estructura_Asimetrica/ --noreport | pr -T -s '' -w 80 --column 4
+tree Estructura_Asimetrica/ --noreport | pr -T -s'' -w 80 --column 4
+tree Estructura_Asimetrica/ --noreport | pr -T -s'' -w 80 --column 2
+mkdir -p ./Estructura_Asimetrica/{correo/carteros_{1..10},cliente}/cartas_{1..10}
+tree
+rm -R Estructura_Asimetrica/
+tree
+mkdir -p ./Estructura_Asimetrica/{{correo/{carteros_{1..10}},cliente}/cartas_{1..10}
+tree
+rm -R Estructura_Asimetrica/
+tree
+mkdir -p ./Estructura_Asimetrica/{correo/carteros_{1..10},cliente}/cartas_{1..10}
+tree
+clear
+rm -R Estructura_Asimetrica/
+ll
+tree
+mkdir -p ./Estructura_Asimetrica/{{correo,cliente}/cartas_{1..10},correo/cartero_{1..10}}
+tree
+rm Estructura_Asimetrica/
+rm -r Estructura_Asimetrica/
+mkdir -p Estructura_Asimetrica/{{correo,cliente}/cartas_{1..10},correo/cartero_{1..10}}
+tree
+rm -r Estructura_Asimetrica/
+tree $HOME
+tree $HOME/Estructura_Asimetrica
+mkdir -p Estructura_Asimetrica/{{correo,cliente}/cartas_{1..10},correo/cartero_{1..10}}
+tree $HOME/Estructura_Asimetrica
+tree $HOME
+mkdir -p $HOME/Estructura_Asimetrica/{{correo,cliente}/cartas_{1..10},correo/cartero_{1..10}}
+tree $HOME
+tree \$HOME/Estructura_Asimetrica/
+tree $HOME/Estructura_Asimetrica/
+tree
+rm -R Estructura_Asimetrica/
+rm -R $HOME/Estructura_Asimetrica/
+pwd
+vim puntoD.sh
+ll
+chmod 755 puntoD.sh 
+ll
+./puntoD.sh 
+tree \$HOME/Estructura_Asimetrica
+tree $HOME/Estructura_Asimetrica
+rm -R $HOME/Estructura_Asimetrica/
+vim puntoD.sh
+./puntoD.sh 
+cat puntoD.sh >> ../../repogit/UTNFRA_SO_1P2C_2024_Lubo/RTA_SCRIPT_Examen_20241008/Punto_D.sh 
+cat ../../repogit/UTNFRA_SO_1P2C_2024_Lubo/RTA_SCRIPT_Examen_20241008/Punto_D.sh 
+rm -R $HOME/Estructura_Asimetrica
+cd ..
+cd repogit/
+ll
+cd UTNFRA_SO_1P2C_2024_Lubo/
+ll
+git status
+git
+git status
+git fetch
+ll
+cd RTA_SCRIPT_Examen_20241008/
+ll
+cat Punto_C.sh 
+cat Punto_D.sh 
+chmod 755 Punto_D.sh 
+ll
+./Punto_D.sh 
+cd..
+cd ..
+git status
+cd UTN-FRA_SO_Examenes/
+ll
+cd 202410/
+ll
+cd _checks/
+ll
+./check_D.sh 
+rm -R $HOME/Estructura_Asimetrica/
+cd ..
+cd UTNFRA_SO_1P2C_2024_Lubo/
+ll
+cd RTA_SCRIPT_Examen_20241008/
+ll
+vim Punto_D.sh 
+./Punto_D.sh 
+cd ..
+cd UTN-FRA_SO_Examenes/
+cd 202410/
+ll
+cd _checks/
+ll
+./check_D.sh 
+rm -R $HOME/Estructura_Asimetrica
+cd ..
+cd UTNFRA_SO_1P2C_2024_Lubo/
+ll
+cd RTA_SCRIPT_Examen_20241008/
+ll
+vim Punto_D.sh 
+./Punto_D.sh 
+cd ..
+cd UTN-FRA_SO_Examenes/
+cd 202410/
+ll
+cd _checks/
+ll
+./check_D.sh 
+cd ..
+cd UTNFRA_SO_1P2C_2024_Lubo/
+git status
+git fsck --full
+rm .git/objects/44/a0ba31f1d3995d3a2a9166176ef049dfe30dee
+git status
+sudo rm .git/objects/44/a0ba31f1d3995d3a2a9166176ef049dfe30dee
+git status
+git fsck --full
+ll
+cd .git/
+ll
+tail -n 2 .git/logs/refs/heads/master
+tail -n 2 logs/refs/heads/master
+sudo tail -n 2 logs/refs/heads/master
+tree logs
+sudo tail -n 2 logs/refs/heads/main
+git show db967533992176fe67292f369b6d2acfda0a2d7e
+git update-ref HEAD db967533992176fe67292f369b6d2acfda0a2d7e
+git fsck --full
+rm index
+ll
+git reset
+git fsck --full
+git status
+cd ..
+git status
+clear
+ll $HOME
+history -a
+ll $HOME
+cp $HOME/.bash_history $HOME/repogit/UTNFRA_SO_1P2C_2024_Lubo/
+ll
+git status
+git add .bash_history 
+git status
+git commit help
+git commit --help
+git commit -m 'fix: actualizo archivo de history y soluciono problema con git en mi VM'
+git add RTA_SCRIPT_Examen_20241008/Punto_D.sh 
+git status
+git commit -m 'ADD: se agrega script de solucion para el Punto D'
+git push
+git fetch
+git status
+git push
+git pull
+git config pull.rebase false
+git pull
+git status
+git push
+git pull
+git fsck
+ll
+cp -a .git .git-old
+git fsck --full
+rm .git/objects/b0/debbba9a27debbc4fddb262b82f99b793283e0
+sudo rm .git/objects/b0/debbba9a27debbc4fddb262b82f99b793283e0
+git fsck
+git fsck --full
+git status
+git pull
+git status
+ll
+cd ..
+ll
+rm -R UTNFRA_SO_1P2C_2024_Lubo/
+sudo rm -R UTNFRA_SO_1P2C_2024_Lubo/
+ll
+git clone git@github.com:JoniBe/UTNFRA_SO_1P2C_2024_Lubo.git
+ll
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh 
+source ~/.bashrc && history-a
+source ~/.bashrc && history -a
+cd ..
+ll
+cd resolucion/
+ll
+cd puntoD
+ll
+cat puntoD.sh >> ../../repogit/UTNFRA_SO_1P2C_2024_Lubo/RTA_SCRIPT_Examen_20241008/Punto_D.sh
+cd ..
+cd repogit/
+ll
+cd UTNFRA_SO_1P2C_2024_Lubo/
+ll
+git status
+rm -r RTA_ARCHIVOS_Examen_20241010
+rm -r RTA_SCRIPT_Examen_20241010
+git status
+git add RTA_SCRIPT_Examen_20241008/Punto_D.sh 
+git status
+git commit -m 'ADD: resolución del Punto D'
+git push
+cd ..
+ll
+cd ..
+ll
+clear
+history -a
