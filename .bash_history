@@ -617,3 +617,96 @@ cd ..
 ll
 clear
 history -a
+cp .bash_history ./repogit/UTNFRA_SO_1P2C_2024_Lubo
+cd repogit/
+ll
+cd UTNFRA_SO_1P2C_2024_Lubo/
+ll
+git status
+git add .bash_history 
+git status
+git commit -m 'feat: actualizo history con lo realizado para Punto D'
+git push
+cd ..
+cd resolucion/
+ll
+mkdir puntoE
+cd punto
+cd puntoE
+ll
+clear
+cat etc/cpuinfo
+cat /proc/cpuinfo
+cat /proc/meminfo
+cat /proc/meminfo | grep 'MemTotal'
+ll /proc/
+cat /proc/devices
+clear
+dmidecode
+sudo dmidecode
+sudo dmidecode | grep 'Chassis Information'
+sudo dmidecode | grep 'Chassis'
+sudo dmidecode | grep 'Chassis Information'
+man dmidecode
+sudo dmidecode -q
+man dmidecode
+sudo dmidecode -s chassis-information
+sudo dmidecode -s chassis-manufacturer
+man dmidecode
+sudo dmidecode --t
+sudo dmidecode -t chassis
+sudo dmidecode -t chassis | head -n1
+sudo dmidecode -t chassis | head -n4
+sudo dmidecode -t chassis | head -4
+sudo dmidecode -t chassis | head -5
+sudo dmidecode -t chassis | head -7
+sudo dmidecode -t chassis | tail -7
+sudo dmidecode -t chassis | head -7
+sudo dmidecode -t chassis | head -7 | tail -2
+echo $(sudo dmidecode -t chassis | head -7 | tail -2)
+sudo dmidecode -t chassis | head -7 | tail -2
+history
+cat /proc/meminfo | grep 'MemTotal'
+cat /proc/meminfo | grep 'MemTotal' >> archivo_prueba.txt
+cat archivo_prueba.txt 
+sudo dmidecode -t chassis | head -7 | tail -2 > archivo_prueba.txt 
+cat archivo_prueba.txt 
+cat /proc/meminfo | grep 'MemTotal' > archivo_prueba.txt
+cat archivo_prueba.txt 
+sudo dmidecode -t chassis | head -7 | tail -2 >> archivo_prueba.txt 
+cat archivo_prueba.txt 
+vim puntoE.sh
+cat puntoE.sh 
+vim puntoE.sh 
+vim puntoE.sh
+cat puntoE.sh ../../repogit/UTNFRA_SO_1P2C_2024_Lubo/RTA_SCRIPT_Examen_20241008/Punto_E.sh
+cat puntoE.sh > ../../repogit/UTNFRA_SO_1P2C_2024_Lubo/RTA_SCRIPT_Examen_20241008/Punto_E.sh
+cd ..
+cd repogit/
+ll
+cd UTNFRA_SO_1P2C_2024_Lubo/
+ll
+cd RTA_SCRIPT_Examen_20241008/
+ll
+chmod 755 Punto_E.sh 
+ll
+./Punto_E.sh 
+vim Punto_E.sh 
+./Punto_E.sh 
+cat ../RTA_ARCHIVOS_Examen_20241008/Filtro_Basico.txt 
+cd ..
+ll
+cd UTN-FRA_SO_Examenes/202410/_checks/
+ll
+./check_E.sh 
+cd ..
+cd UTNFRA_SO_1P2C_2024_Lubo/
+git status
+git add RTA_SCRIPT_Examen_20241008/Punto_E.sh 
+git commit -m 'ADD: script de resolucion de Punto E'
+git add RTA_ARCHIVOS_Examen_20241008/Filtro_Basico.txt 
+git status
+git commit -m 'ADD: se agrega el archivo de texto generado con el script del Punto E'
+git push
+cd ..
+history -a
